@@ -35,8 +35,8 @@ body {
 }
 
 .logo-icon {
-  width: clamp(40px, 8vw, 50px);
-  height: clamp(40px, 8vw, 50px);
+  width: clamp(50px, 10vw, 60px); /* Increased for better visibility */
+  height: clamp(50px, 10vw, 60px);
   position: relative;
   display: flex;
   align-items: center;
@@ -45,9 +45,9 @@ body {
 
 .v-logo {
   font-family: 'Orbitron', sans-serif;
-  font-size: clamp(28px, 5vw, 26px); /* Identical to logo-text */
+  font-size: clamp(20px, 5vw, 26px); /* Identical to logo-text */
   font-weight: 700;
-  color: #fff;
+  color: #00ffff; /* Fallback for non-Webkit browsers */
   text-transform: uppercase;
   letter-spacing: 4px;
   background: linear-gradient(90deg, #00ffff, #ff00ff);
@@ -61,7 +61,7 @@ body {
 .logo-text {
   font-size: clamp(20px, 5vw, 26px);
   font-weight: 700;
-  color: #fff;
+  color: #00ffff; /* Fallback for non-Webkit browsers */
   text-transform: uppercase;
   letter-spacing: 4px;
   background: linear-gradient(90deg, #00ffff, #ff00ff);

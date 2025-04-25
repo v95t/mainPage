@@ -45,7 +45,7 @@ body {
 
 .v-logo {
   font-family: 'Orbitron', sans-serif;
-  font-size: clamp(25px, 5vw, 30px); /* Identical to logo-text */
+  font-size: clamp(25px, 10vw, 30px); /* Identical to logo-text */
   font-weight: 700;
   color: #00ffff; /* Fallback for non-Webkit browsers */
   text-transform: uppercase;

@@ -1,6 +1,6 @@
 // Initialize EmailJS with your Public Key
         (function() {
-            emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your EmailJS Public Key
+            emailjs.init("VTravprD8X1ELze4f"); // Replace with your EmailJS Public Key
         })();
 
         // Form submission handler
@@ -8,7 +8,7 @@
             event.preventDefault(); // Prevent default form submission
 
             // Send form data using EmailJS
-            emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+            emailjs.sendForm('service_rjn2m59', 'template_okrilse', this)
                 .then(function() {
                     alert('Message sent successfully!');
                     document.getElementById('contact-form').reset(); // Reset form
